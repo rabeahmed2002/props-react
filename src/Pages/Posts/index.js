@@ -40,7 +40,7 @@
 
 
 import React from 'react';
-import './style.css'; // Make sure your CSS file is named "Index.css"
+import "./style.css"
 
 const Index = (props) => {
   return (
