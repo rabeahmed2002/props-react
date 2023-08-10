@@ -36,20 +36,17 @@
 
 
 
-
-
-
 import React from 'react';
-import "./style.css"
+import './style.css'; // Make sure your CSS file is named "Index.css"
 
 const Index = (props) => {
   return (
-    <div className="post">
-      <div className="header">
+    <div className="post-box">
+      <div className="post-header">
         <div className="user-info">
           <img className="user-avatar" src={props.avatar} alt="User Avatar" />
           <div className="user-details">
-            <h1>{props.name}</h1>
+            <h1 className="user-name">{props.name}</h1>
             <p className="post-time">{props.time}</p>
           </div>
         </div>
@@ -60,7 +57,7 @@ const Index = (props) => {
         <img className="post-image" src={props.image} alt="Post Image" />
       </div>
 
-      <div className="actions">
+      <div className="post-actions">
         <button className="action-button">Like</button>
         <button className="action-button">Comment</button>
         <button className="action-button">Share</button>

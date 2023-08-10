@@ -10,8 +10,26 @@ function App() {
           name={'Rabe Ahmed'}
           time={'10 minutes ago'}
 
-          caption={'eady announce `img` tags as an image. You don’t need to use the words `image`, `photo,'}
-          image={'https://i.postimg.cc/6qtzRpRk/IMG-20230413-170805-149.jpg'}
+          caption={'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'}
+          image={'https://media.wired.com/photos/64790f5a0b67c709cbcaa9b5/master/w_2560%2Cc_limit/Spider-Man-Across-The-Spider-Verse-Monitor-Culture.jpg'}
+        />
+
+<Post
+          avatar={'https://i.postimg.cc/6qtzRpRk/IMG-20230413-170805-149.jpg'}
+          name={'Rabe Ahmed'}
+          time={'10 minutes ago'}
+
+          caption={'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'}
+          image={'https://media.wired.com/photos/64790f5a0b67c709cbcaa9b5/master/w_2560%2Cc_limit/Spider-Man-Across-The-Spider-Verse-Monitor-Culture.jpg'}
+        />
+
+<Post
+          avatar={'https://i.postimg.cc/6qtzRpRk/IMG-20230413-170805-149.jpg'}
+          name={'Rabe Ahmed'}
+          time={'10 minutes ago'}
+
+          caption={'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'}
+          image={'https://media.wired.com/photos/64790f5a0b67c709cbcaa9b5/master/w_2560%2Cc_limit/Spider-Man-Across-The-Spider-Verse-Monitor-Culture.jpg'}
         />
     </div>
   );

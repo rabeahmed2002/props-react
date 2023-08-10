@@ -1,19 +1,21 @@
-/* Index.css */
-
 .post-box {
+    width: 30%; 
+    height: 40%;
+    margin: 100px auto;
     border: 1px solid #ddd;
     border-radius: 8px;
     padding: 16px;
-    margin: 16px auto;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     background-color: #fff;
-    width: 50%; /* Adjust the width as needed */
   }
   
   .post-header {
+    margin-bottom: 12px;
+  }
+  
+  .user-info {
     display: flex;
     align-items: center;
-    margin-bottom: 12px;
   }
   
   .user-avatar {
@@ -28,6 +30,7 @@
   
   .user-name {
     margin: 0;
+    font-size: 20px;
   }
   
   .post-time {
@@ -35,16 +38,16 @@
     font-size: 14px;
     margin: 0;
   }
-  
   .post-content {
     display: flex;
+    align-items: center;
     flex-direction: column;
     margin-bottom: 12px;
   }
   
   .post-caption {
     margin: 0;
-    font-size: 18px;
+    font-size: 14px;
   }
   
   .post-image {
@@ -55,8 +58,9 @@
   
   .post-actions {
     display: flex;
-    justify-content: space-between;
-    max-width: 200px;
+    align-items: center;
+    justify-content: space-evenly;
+    /* max-width: 200px; */
     margin-top: 12px;
   }
   
