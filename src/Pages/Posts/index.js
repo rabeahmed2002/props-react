@@ -1,43 +1,5 @@
-// import React from 'react'
-
-// const Index = (props) => {
-//   return (
-//     <div>
-//       <div>
-//         <div>
-//             <img src=''/>
-//             <h1>{props.name}</h1> 
-
-//             <p>{props.time}</p>
-//         </div>
-
-//         <div>
-//             <p>{props.caption}</p>
-//             <img src=''/>
-//         </div>
-
-//         <div>
-//             <button>Like</button>
-//             <button>Comment</button>
-//             <button>Share</button>
-//         </div>
-
-//       </div>
-//     </div>
-//   )
-// }
-
-// export default Index
-
-
-
-
-
-
-
-
 import React from 'react';
-import './style.css'; // Make sure your CSS file is named "Index.css"
+import './style.css';
 
 const Index = (props) => {
   return (
